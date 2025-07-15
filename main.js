@@ -37,7 +37,7 @@ function displayData(Data) {
                             <p class="author">${article.author}</p>
                             <p class="title">${article.title}</p>
                             <p class="discription">${article.description}</p>
-                            <a href="${article.url}"> Click here</a>
+                            <a href="${article.url}">Read More</a>
                         </div>
                     </a>
     `;
