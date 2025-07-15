@@ -4,7 +4,7 @@ function NavBar(){
     Nav.innerHTML = `
         <nav class="top-nav">
           <button id="menuBtn"><img src="./assets/menu.png" alt="" /></button>
-          <a href="#" id="logo">NewsAble</a>
+          <a href="#" id="logo" class="logo"><span class="logo-span-1">News</span><span class="logo-span-2">Able</span></a>
           <div class="search-wrapper">
             <input type="search" />
             <button>🔍</button>
