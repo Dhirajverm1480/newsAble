@@ -1,4 +1,12 @@
 // let key= "547d4bf3e6a747b49f09e16032aab1a7"
+import NavBar from "./components/navBar.js";
+
+componentsDisplay();
+
+function componentsDisplay(){
+  const Header = document.getElementById('header');
+  Header.appendChild(NavBar())
+}
 
 async function getFetchData() {
   const response = await fetch(
