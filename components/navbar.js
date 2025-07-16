@@ -7,7 +7,7 @@ function NavBar(){
           <a href="#" id="logo" class="logo"><span class="logo-span-1">News</span><span class="logo-span-2">Able</span></a>
           <div class="search-wrapper">
             <input type="search" />
-            <button>🔍</button>
+            <button id="search-btn" class="search-btn"><img src="./assets/search-interface-symbol.png" alt="search " class="search-btn-img"/></button>
           </div>
           <!-- <div>mode</div> -->
         </nav>

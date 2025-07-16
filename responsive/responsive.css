@@ -1,6 +1,17 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .news-card{
         width: 50%;
+        /* background: red; */
+    }
+
+    .search-wrapper input {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .news-card{
+        width: 100%;
         /* background: red; */
     }
 }
